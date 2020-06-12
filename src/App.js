@@ -1,25 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Converter from './components/Converter'
+import Routes from  './routes'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div className="App">
+    //   <div className="container-fluid">
+    //     <div className="row page">
+    //       <div className="col-4 offset-4 justify-content-center">
+    //         <Converter moedaA="USD" moedaB="BRL">
+
+    //         </Converter>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
+    <Routes></Routes>
   );
 }
 
